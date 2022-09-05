@@ -95,3 +95,7 @@ Junior Frontend Developer
 
 Bachelor and Master Degrees in 
 Physical culture and Sport management
+
+## English
+
+![English level](img/english-level.png)
