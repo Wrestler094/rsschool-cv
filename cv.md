@@ -25,3 +25,49 @@ My goal is to become Senior Frontend Developer.
 * React
 * Redux
 * Node.js
+
+## Code samples
+
+JS code sample
+
+```
+function solution(matrix) {
+    const rowsNumber = matrix.length; 
+    const colsNumber = matrix[0].length;
+    const res = [];
+    
+    for (let i = 0; i < colsNumber; i++) {
+        for (let j = 0; j < rowsNumber; j++) {
+            if (matrix[j][i] === 0) {
+                break;
+            } else {
+                res.push(matrix[j][i]);
+            }
+        }
+    }
+    
+    return res.reduce((total, item) => total += item, 0);
+}
+```
+
+C++ code sample
+
+```
+int solution(vector<vector<int>> matrix) {
+int rows_number = matrix.size();
+int cols_number = matrix[0].size();
+int result = 0;
+
+    for (int i = 0; i < cols_number; i++) {
+        for (int j = 0; j < rows_number; j++) {
+            if (matrix[j][i] == 0) {
+                break;
+            } else {
+                result += matrix[j][i];
+            }
+        }
+    }
+    
+    return result;
+}
+```
