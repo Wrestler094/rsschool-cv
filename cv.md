@@ -71,3 +71,27 @@ int result = 0;
     return result;
 }
 ```
+
+## Experience
+
+### Trainee React-developer
+
+Noorsoft - Dec 2021 — Feb 2022
+
+I worked on chat app for tech support on React/Redux/Redux-saga/Firebase stack. 
+Additional, I got to know and used Jest, Bootstrap, Formik, Pubnub, dotenv, prettier, lodash, react-infinite-scroller libraries.
+
+## Education
+
+### 21 School - 2022 - to current time
+
+Student of programming school 21
+
+### Innopolis University - 2021
+
+Junior Frontend Developer
+
+### VRUST - 2012-2018
+
+Bachelor and Master Degrees in 
+Physical culture and Sport management
