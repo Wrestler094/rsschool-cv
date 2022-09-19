@@ -1,0 +1,116 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h2 {
+    margin: 1.2em 0 0.8em 0;
+}
+
+a {
+    color: #267295;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+  color: #1f5c79;
+}
+
+.page {
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    min-width: 320px;
+    margin: 0;
+    background-color: white;
+    color: #444444;
+}
+
+main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 15px 30px 30px 30px;
+}
+
+.header {
+    padding: 40px 0 20px 0;
+    min-height: 200px;
+    background: #314755;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.test2 {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.test3 {
+    text-align: center;
+    color: #e9f3ff;
+}
+
+.list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list__item {
+    margin-bottom: 6px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    margin: 10px 0;
+    border-bottom: 1px solid rgba(55, 53, 47, 0.16);
+}
+
+.resume {
+    margin-bottom: 40px;
+}
+
+.frontend {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0;
+    list-style: none;
+}
+
+.experience, .education {
+    margin-bottom: 30px;
+}
+
+.date {
+    margin: -10px 0;
+    color: grey;
+}
